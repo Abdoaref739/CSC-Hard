@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About us</title>
+    <link rel="stylesheet" href="aboutus.css">
+</head>
+<body>
+    <img src="./images/image copy.png" id="scroll-top">
+        <header id="website-header">
+        <img src="./images/menulogo.png" id="menulogo">
+        <button id="home-button">Home</button>
+        <button id="aboutus-button">About Us</button>
+        <button id="services-button">Services</button>
+        <button id="projects-button">Projects</button>
+        <button id="contactus-button">Contact Us</button>
+    </header>
+    <img src="./image.png" id="timeline">
+    <h1 class="main-page-text">A FEW WORDS FOR ABOUT US</h1>
+    <span class="page-subtext">Sit ametonume onsectetur adipisicing elit, sedomo eiusmod tempor et dolore magna aliqua.</span>
+    <p class="page-paragraph">Senectus auctor pellentesque orci elit morbi dapibus natoque varius netus, erat eu magna interdum. Interdum ipsum est mi, dolor cum accumsan. Velit habitasse ullamcorper scelerisque mus aliquam euismod orci habitasse duis ac arcu volutpat potenti.Tellus leo volutpat id hendrerit pretium Nisl tempor lacus parturient rutrum, et dignissim pulvinar posuere ad integer nec pulvinar blandit. Est hac nam vehicula justo, etiam eros ad lobortis facilisis augue pharetra ante montes. Arcu. Nunc torquent varius cubilia phasellus interdum dictum.</p>
+    <button id="read-more-button">READ MORE</button>
+    <img src="./images/62.jpg" id="wind-turbine-image">
+    <div id="skills-div">
+        <h1 class="skills-main-text">Skills</h1>
+        <h3 class="skills-submain-text">Here Is Some Of my Current Skills</h3>
+
+        <div id="skills-card">
+            <img src="./images/63.png" id="skills-card1-img">
+            <h1 id="skills-card1-main">HTML</h1>
+            <p id="skills-card1-paragraph">In October 2021, I started learning HTML with Elzero Web School and W3schools.I've produced a tonne of projects since I started learning HTML. You can say I'm an HTML expert. ❤️</p>
+        </div>
+
+
+        <div id="skills-card">
+            <img src="./images/64.png" id="skills-card2-img">
+            <h1 id="skills-card2-main">CSS</h1>
+            <p id="skills-card2-paragraph">I believe that CSS is the best markup language because it is simple to learn and read. After I learned CSS in November 2021, the fun really started. I have many projects and ideas in mind, and I have already completed four projects using HTML and CSS.
+</p>
+        </div>
+
+
+        <div id="skills-card">
+            <img src="./images/65.png" id="skills-card3-img">
+            <h1 id="skills-card3-main">BootStrap</h1>
+            <p id="skills-card3-paragraph">Because I learned bootstrap right after CSS (in January 2022), it is the foundation of the majority of my projects.</p>
+        </div>
+
+
+        <div id="skills-card2">
+            <img src="./images/66.png" id="skills-card4-img">
+            <h1 id="skills-card4-main">Git & Github</h1>
+            <p id="skills-card4-paragraph"> learned git and gitHub in March 2022, and I believe git is the best version controll application. I've used others before, such as powershell and the internal Windows terminal, but I still believe git is the best. I have a lot of experience with git and gitHub, asYou Can See the Current Website You Are In🙂</p>
+        </div>
+
+
+        <div id="skills-card2">
+            <img src="./images/67.png" id="skills-card5-img">
+            <h1 id="skills-card5-main">JavaScript</h1>
+            <p id="skills-card5-paragraph">Although I am still a novice in JS, I can say that I have some experience with ES Versions and the fundamentals of JS, such as DOM, BOM, DataTypes, Loops, Regux, and OOP. I have been learning javaScript since April 2022 and am still learning.🎓</p>
+        </div>
+        <div id="skills-card2">
+            <img src="./images/68.png" id="skills-card6-img">
+            <h1 id="skills-card6-main">Font Awesome</h1>
+            <p id="skills-card6-paragraph">I've been using font awesome icons ever since I started programming, and I'm really getting good at it.</p>
+        </div>
+    </div>
+    <div class="our-staff">
+        <h1 id="our-staff-maintext">OUR STAFF</h1>
+        <h3 id="our-staff-subtext">Habitasse viverra eget quis viverra nec nullam risus dictum mauris mollis in Aenean ullamcorper in sollicitudin</h3>
+        <img src="#" id="staff-image1">
+        <img src="#" id="staff-image2">
+        <img src="#" id="staff-image3">
+    </div>
+        <footer class="website-footer">
+        <div id="upper-footer">
+            <span class="part-text">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Header <br>sample footer text</span>
+            <span class="part-text">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Header <br>sample footer text</span>
+            <span class="part-text">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Header <br>sample footer text</span>
+        </div>
+        <div id="lower-footer">all copyrights are saved
+created by <a href="#" id="dev-repo-link"> yasoo saad</a>
+used skills</div>
+    </footer>
+    <script>
+        function scroll_top(){
+        let scroll_top = document.getElementById("scroll-top");
+        if(window.scrollY >= 1296){
+            scroll_top.style.display = "block";
+        }else if(window.scrollY < 1296){
+            scroll_top.style.display = "none";
+        }
+    }
+    setInterval(scroll_top, 100);
+        </script>
+</body>
+</html>

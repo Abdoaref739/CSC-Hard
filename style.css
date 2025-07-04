@@ -6,6 +6,10 @@ body{
     display: flex;
     justify-content: center;
 }
+body::selection{
+    background-color: rgb(131, 131, 255);
+    color: white;
+}
 #website-header{
     display: flex;
     align-items: center;
